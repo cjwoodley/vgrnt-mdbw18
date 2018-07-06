@@ -5,7 +5,7 @@ FILE=./mongodb-linux-x86_64-ubuntu1604-4.0.0.tgz
 echo $FILE
 if [ ! -e "$FILE" ]; then
 		echo "MongoDB Needs to be downloaded"
-		##wget https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu1604-4.0.0.tgz
+		wget https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu1604-4.0.0.tgz
 	else 
 		echo  "MongoDB is downloaded already, moving to next step"
 fi
